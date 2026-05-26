@@ -87,6 +87,17 @@ class Queues
 
         cout << "\nelements in the queue are...\n: ";
 
+        // jika fron <= rear, iterasi dari front hinggaq rear
+        if (FRONT_position <= REAR_position)
+        {
+            while (FRONT_position <= REAR_position)
+            {
+                cout << queue_array[FRONT_position] << " ";
+                FRONT_position++;
+            }
+        }
+        
+
 
 
 
