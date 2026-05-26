@@ -73,6 +73,23 @@ class Queues
         }
 
     }
+    void display()
+    {
+        int FRONT_position = FRONT;
+        int REAR_position = REAR;
+
+        // cek apakah antrian kosong
+        if (FRONT_position == -1)
+        {
+            cout << "\nQueue is empty\n";
+            return;
+        }
+
+        cout << "\nelements in the queue are...\n: ";
+
+
+
+
 
             
 
