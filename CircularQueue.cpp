@@ -8,5 +8,12 @@ class Queues
     int FRONT;
     int REAR;
     int queue_array[max];
-    
+
+    public:
+    Queues()
+    {
+        FRONT = -1;
+        REAR = -1;
+    }
+
 }
